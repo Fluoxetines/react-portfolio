@@ -7,14 +7,7 @@ const Hero = () => {
   return (
     <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <h1 className="text-4xl font-semibold">I'm Nguyễn Đức Long</h1>
-      <motion.h2
-        className="text-5xl"
-        data-scroll
-        data-scroll-speed="1"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 1.4 }}
-      >
+      <motion.h2 className="text-5xl">
         <Typed
           strings={["Front-End Developer", "Web Development"]}
           typeSpeed={40}
